@@ -1,0 +1,245 @@
+body{
+    /* height: 3000px!important; */
+    font-family: 'Open Sans', sans-serif!important;
+}
+
+.my-line{
+    width: 120px;
+    height: 1px;
+    background: #f38b74;
+}
+.btn-nav-red{
+    background: #ed502e!important;
+    color: white!important;
+}
+.bg-Glamz-total{
+    background: #ed502e!important;
+}
+
+.link-text-red:hover{
+    color: #ed502e!important;
+}
+
+.text-total{
+    color: #ed502e!important;
+}
+
+.btn-red{
+    background: #ed502e!important;
+    color: white!important;
+}
+
+.btn-outline-red{
+    border: 2px solid #ed502e!important;
+    color: #ed502e!important;
+}
+
+.btn-outline-red:hover{
+    background: #ed502e!important;
+    color: #f6f9fd!important;
+}
+
+.btn-red:hover{
+    color: #0f2f57!important;
+}
+
+.bg-light-blue{
+    background-color: #f6f9fd!important;
+}
+
+.bg-dark-blue{
+    background: #071527;
+}
+
+.bg-custom-dark{
+    background: #05101e;
+}
+
+.text-dark-blue{
+    color: #0f2f57; 
+}
+
+.form-control:focus{
+    border-color: #ed502e!important;
+    box-shadow: #ed502e!important;
+    box-shadow: 0 0 0 0.09rem #f38b74!important;
+}
+
+/* start header  */
+header{
+    background: linear-gradient(rgba(0,0,0,0.5) ,rgba(0,0,0,0.5)) ,url(../img/slide-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh!important;
+
+}
+/* end header  */
+
+/* start video  */
+.bg-video{
+    background-image: url(../img/why-us.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* end video  */
+
+/* start services  */
+.service-icon-box{
+    width: 60px;
+    height: 60px;
+    box-shadow: -9px -9px #f9c6bb;
+}
+.service-item{
+    transition-duration: 0.5s;
+}
+.service-item:hover{
+    background-color: #ed502e!important;
+    color: white!important;
+}
+
+.service-item:hover .service-icon-box{
+    background-color: white!important;
+    color: #ed502e!important;
+    transition-duration: 0.5s;
+}
+/* end services  */
+
+/* start Testimonials  */
+.mebers-img{
+    top: 20px;
+    left: -40px;
+    
+}
+
+.my-btn-slider{
+    background-color: rgb(255, 255, 255)!important;
+    width: 12px!important;
+    height: 12px!important;
+    border-radius: 50%;
+    border: 1px solid red!important;
+}
+
+.my-btn-slider.active{
+    background-color: #ed502e!important;
+}
+
+.carousel-indicators{
+    bottom: -30px!important;
+}
+/* end Testimonials  */
+
+/* start Call To Action  */
+.bg-Action{
+    background-color: #0f2f57;
+}
+/* end Call To Action  */
+
+/* start Protfolio  */
+.protfolio-hover{
+    top: 100%;
+}
+.protfolio-hover{
+    background-color:rgb(255, 255, 255, 0.8);
+    transition-duration: 0.5s!important;
+
+}
+
+.portfolio-item:hover .protfolio-hover{
+    top: 65%;
+}
+/* end Protfolio  */
+
+/* start TEAM */
+.team-hover1{
+    top: 0px;
+    left: -18%;
+    height: 100%;
+    width: 18%;
+    background-color: rgba(11, 35, 65, 0.5)!important;
+    z-index: 100;
+    transition-duration: 0.5s!important;
+}
+
+.team-hover2{
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(transparent , rgba(11, 35, 65, 0.9));
+    transition-duration: 0.5s;
+}
+
+.team-item:hover .team-hover1{
+    left: 0;
+}
+.team-item:hover .team-hover2{
+    top: 0;
+}
+
+.team-item:hover img{
+    transform: scale(1.1);
+}
+
+.team-item img{
+    transition-duration: 0.5s;
+}
+/* end TEAM */
+
+/* start contact  */
+.contact-icon-box{
+    width: 60px;
+    height: 60px;
+    border: 2px dashed #ed502e;
+}
+
+.contact-min-box{
+    margin-bottom: auto;
+}
+/* end contact  */
+
+/* start footer  */
+.footer-icon-box{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.footer-icon-box:hover{
+    background-color: #ed502e;
+}
+
+.footer-line{
+    border-top: 5px solid #ed502e;
+}
+.Copyright{
+    border-top: 1px solid #0f2f57;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.Design a{
+    color: #ed502e;
+    text-decoration: none;
+}
+/* end footer  */
+
+/* respaisiv  */
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .contact-min-box{
+        margin-bottom: 20px;
+    }
+}
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
